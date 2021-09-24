@@ -1601,6 +1601,11 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
+"@sweetalert2/theme-dark@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-dark/-/theme-dark-5.0.5.tgz#669adc0553db67e931e0b2a8db69a19f5920ae10"
+  integrity sha512-GmeC3QXjfCuzc522wtwl1fgi8Nt6UqFg2OCdHFjcQ8EqnZwycNPU6bv268cbAM5/ht9yiT9Fb0oNw8vRtj4lxw==
+
 "@testing-library/dom@^7.28.1":
   version "7.31.2"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.31.2.tgz#df361db38f5212b88555068ab8119f5d841a8c4a"

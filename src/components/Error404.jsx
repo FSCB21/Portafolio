@@ -1,11 +1,9 @@
-import {Expo, gsap} from 'gsap';
+import gsap, { Expo } from 'gsap';
 import React, { useEffect } from 'react'
 
-import img from '../img/img.jpeg' 
-import Social from './Social';
+import img from '../img/error-404.gif'
 
-const HomeP = () => {
-
+const Error404 = () => {
     useEffect(() => {
     gsap.to(".first", .8, {delay: .3, top: "200%", ease: Expo.easeInOut});
     gsap.to(".second", .8, {delay: .5, top: "200%", ease: Expo.easeInOut});
@@ -25,7 +23,6 @@ const HomeP = () => {
     
     });
     
-
     return (
         <div>
             <div className="overlay first"></div>
@@ -36,16 +33,13 @@ const HomeP = () => {
             <main className="l-main bd-grid">
                 <div className="home">
                     <div className="home__information">
-                        <span className="home__pressent anime-text">Hey!! Me Llamo</span>
-                        <h1 className="home__title anime-text">Freddy</h1>
-                        <span className="home__skill anime-text">Y Soy Desarrollador Full Stack Js</span>
+                        <h1 className="home__skill anime-text">Oops... Algo salio mal</h1>
+                        <span className="home__p anime-text">No se ha encontrado esta ruta</span>
                     </div>
 
                     <div className="home__img" >
                         <img src={img} alt="" className="imgH" />
                     </div>
-                    
-                    <Social />
 
                 </div>
             </main>
@@ -53,4 +47,4 @@ const HomeP = () => {
     )
 }
 
-export default HomeP
+export default Error404

@@ -1,5 +1,6 @@
 import gsap, { Expo } from 'gsap';
 import React, { useEffect } from 'react'
+import Social from './Social';
 
 const Experiencia = () => {
 
@@ -20,17 +21,15 @@ const Experiencia = () => {
     gsap.from('.nav__logo', {opacity:0, duration: 3, delay: 2.5,  ease:'expo.out'});
     gsap.from('.nav__item', {opacity: 0, duration: 3, delay: 2.5, ease:'expo.out', stagger: .2})
 
-    // SOCIAL
-    gsap.from('.home__social-icon', {opacity: 0, duration: 3, delay: 3, y: 25, ease:'expo.out', stagger: .2})
     });
     
 
     return (
         <div>
-            <div class="overlay first"></div>
-            <div class="overlay second"></div>
-            <div class="overlay third"></div>
-            <div class="overlay four"></div>
+            <div className="overlay first"></div>
+            <div className="overlay second"></div>
+            <div className="overlay third"></div>
+            <div className="overlay four"></div>
 
         <main className="l-main bd-grid">
             <div className="home">
@@ -65,12 +64,7 @@ const Experiencia = () => {
 
                 
 
-                
-                <div className="home__social">
-                    <a href="https://www.facebook.com/profile.php?id=100016167039922"><ion-icon name="logo-facebook" class="home__social-icon"></ion-icon></a>
-                    <a href="https://www.facebook.com/profile.php?id=100016167039922"><ion-icon name="logo-instagram" class="home__social-icon"></ion-icon></a>
-                    <a href="https://www.facebook.com/profile.php?id=100016167039922"><ion-icon name="logo-twitter" class="home__social-icon"></ion-icon></a>
-                </div>
+                <Social />
             </div>
         </main>
         </div>
