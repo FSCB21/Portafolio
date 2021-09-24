@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.74417def.chunk.css",
+    "main.js": "/Portafolio/static/js/main.d7723fe8.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.d7723fe8.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.5d14ad3d.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.5d14ad3d.js.map",
+    "static/css/2.d7d2fa42.chunk.css": "/Portafolio/static/css/2.d7d2fa42.chunk.css",
+    "static/js/2.4142f032.chunk.js": "/Portafolio/static/js/2.4142f032.chunk.js",
+    "static/js/2.4142f032.chunk.js.map": "/Portafolio/static/js/2.4142f032.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "static/css/2.d7d2fa42.chunk.css.map": "/Portafolio/static/css/2.d7d2fa42.chunk.css.map",
+    "static/css/main.74417def.chunk.css.map": "/Portafolio/static/css/main.74417def.chunk.css.map",
+    "static/js/2.4142f032.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.4142f032.chunk.js.LICENSE.txt",
+    "static/media/code.8ade1634.png": "/Portafolio/static/media/code.8ade1634.png",
+    "static/media/error-404.5b5e4441.gif": "/Portafolio/static/media/error-404.5b5e4441.gif",
+    "static/media/img.a8442331.jpeg": "/Portafolio/static/media/img.a8442331.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d14ad3d.js",
+    "static/css/2.d7d2fa42.chunk.css",
+    "static/js/2.4142f032.chunk.js",
+    "static/css/main.74417def.chunk.css",
+    "static/js/main.d7723fe8.chunk.js"
+  ]
+}
